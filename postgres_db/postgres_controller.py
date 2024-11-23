@@ -99,7 +99,7 @@ class PostgresController:
             "phone_number": self.faker.phone_number(),
             "address_line1": self.faker.street_address(),
             "address_line2": self.faker.secondary_address(),
-            "country_id": random.randint(1, 100),  # Assuming country_id is an integer
+            "country_id": random.randint(1, 100),  # Assuming country_id is an intege
             "city": self.faker.city(),
             "note": self.faker.text(),
             "created_at": datetime.datetime.now(),

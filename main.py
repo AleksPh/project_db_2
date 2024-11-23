@@ -1,8 +1,8 @@
 import time
 import uuid
 
-from mongo_db.mongo_controller import MongoController  # Adjust the import according to your file structure
-from postgres_db.postgres_controller import PostgresController  # Adjust the import according to your file structure
+from mongo_db.mongo_controller import MongoController  
+from postgres_db.postgres_controller import PostgresController  
 
 # Mongo DB connection details
 mongo_uri = "mongodb://localhost:27017/"

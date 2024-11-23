@@ -28,7 +28,7 @@ class MongoController:
             "created_at": datetime.datetime.now(),
             "updated_at": datetime.datetime.now(),
             "created_by": ObjectId(),  # Random ObjectId
-            "updated_by": ObjectId()  # Random ObjectId
+            "updated_by": ObjectId()  # Random ObjectIdd
         }
 
     def generate_coupon(self):
